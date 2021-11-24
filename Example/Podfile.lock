@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WMCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WMCategoryKit (from `../`)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WMCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WMCategoryKit: a06d143573914dea083a97d182d104c1745432b9
+
+PODFILE CHECKSUM: fb5716bf3e357b04a5e6b7cebfa7ce29978a7ec6
+
+COCOAPODS: 1.11.2

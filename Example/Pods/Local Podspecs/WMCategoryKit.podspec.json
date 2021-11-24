@@ -1,0 +1,22 @@
+{
+  "name": "WMCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of WMCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MenaceiOS/WMCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MenaceiOS": "694101751@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/MenaceiOS/WMCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WMCategoryKit/Classes/**/*"
+}

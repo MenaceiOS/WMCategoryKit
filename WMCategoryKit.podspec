@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WMCategoryKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WMCategoryKit.'
+  s.version          = '1.0'
+  s.summary          = '常用的category类库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
