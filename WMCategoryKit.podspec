@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/MenaceiOS/WMCategoryKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'MenaceiOS' => '694101751@qq.com' }
+  s.author           = { 'MenaceiOS' => 'MenaceiOS@163.com' }
   s.source           = { :git => 'https://github.com/MenaceiOS/WMCategoryKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
