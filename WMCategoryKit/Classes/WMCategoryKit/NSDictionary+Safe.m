@@ -29,12 +29,16 @@
             if (!arg || [arg isKindOfClass:[NSNull class]]) {
                 continue;
             }
+            NSString * keyString = key;
+            if ([keyString hasPrefix:@"_"]) {
+                keyString = [keyString substringFromIndex:1];
+            }
             if ([arg isKindOfClass:[NSString class]]) {
                 if ([[arg stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] != 0) {
-                    [dic setObject:arg forKey:key];
+                    [dic setObject:arg forKey:keyString];
                 }
             } else {
-                [dic setObject:arg forKey:key];
+                [dic setObject:arg forKey:keyString];
             }
         }
         va_end(list);
